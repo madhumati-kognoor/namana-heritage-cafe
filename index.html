@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Discover the menu at Namana Heritage Cafe, from crisp starters and satisfying mains to desserts and freshly prepared drinks."
+  >
+  <title>Namana Heritage Cafe | Food Ordering</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header" id="header">
+    <div class="container header-content">
+      <a class="brand" href="#home" aria-label="Namana Heritage Cafe home">Namana <span>Heritage Cafe</span></a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#offers">Offers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="button button-small" href="#menu" aria-label="Order from the Namana Heritage Cafe menu">Order Now</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="container hero-layout">
+        <div class="hero-content">
+          <p class="eyebrow">An Indian heritage cafe</p>
+          <h1 id="hero-title">Namana Heritage Cafe</h1>
+          <h2 class="hero-supporting-heading">Where Tradition Meets Taste</h2>
+          <p class="hero-description">
+            Discover handcrafted cuisine, thoughtful ingredients, and the warmth of Indian hospitality in every visit.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-secondary" href="#menu">Explore Menu</a>
+            <a class="button" href="#menu">Order Now</a>
+          </div>
+        </div>
+        <figure class="hero-image">
+          <img
+            src="images/hero/heritage-cafe.jpg"
+            alt="Delicious freshly prepared food from Namana Heritage Cafe"
+            width="960"
+            height="720"
+            fetchpriority="high"
+          >
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="categories" aria-labelledby="categories-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Find your favorite</p>
+          <h2 id="categories-title">Explore Our Menu</h2>
+          <p>Choose from our selection of freshly prepared favorites.</p>
+        </div>
+        <div class="category-grid">
+          <article class="category-card">
+            <svg class="category-icon" viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M8 18h32l-3 19H11L8 18Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2.5"/>
+              <path d="M15 18c1-5 4-8 9-8s8 3 9 8M17 26h14M19 31h10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.5"/>
+            </svg>
+            <h3>Starters</h3>
+            <p>Begin your meal with delicious appetizers.</p>
+            <a class="category-link" href="#starters">View Items <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="category-card">
+            <svg class="category-icon" viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M8 19h32v16H8zM12 19c0-5 4-8 8-8 2 0 3 1 4 3 1-2 3-3 5-3 4 0 7 3 7 8M14 25h20M14 30h20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+              <path d="M13 39h22" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.5"/>
+            </svg>
+            <h3>Main Course</h3>
+            <p>Enjoy hearty and flavorful main dishes.</p>
+            <a class="category-link" href="#main-course">View Items <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="category-card">
+            <svg class="category-icon" viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M9 22h30v5a13 13 0 0 1-13 13h-4A13 13 0 0 1 9 27v-5ZM14 17h20M17 12h14" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+              <path d="M24 8v5M13 22c2 5 6 7 11 7s9-2 11-7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.5"/>
+            </svg>
+            <h3>Desserts</h3>
+            <p>Finish your meal with something sweet.</p>
+            <a class="category-link" href="#desserts">View Items <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="category-card">
+            <svg class="category-icon" viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M12 17h24l-2 23H14l-2-23ZM10 12h28M17 8l2 4M26 8l2 4M35 22h4a4 4 0 0 1 0 8h-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+              <path d="M18 23v10M24 23v10M30 23v10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"/>
+            </svg>
+            <h3>Drinks</h3>
+            <p>Refresh yourself with our beverages.</p>
+            <a class="category-link" href="#drinks">View Items <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Made for you</p>
+          <h2 id="menu-title">Popular Dishes</h2>
+          <p>Discover some of our most loved dishes, freshly prepared at Namana Heritage Cafe.</p>
+        </div>
+
+        <section class="menu-category-group" aria-labelledby="starters-heading">
+          <h3 class="menu-section-title" id="starters-heading">Starters</h3>
+          <div class="menu-grid">
+            <article class="menu-card" id="starters">
+              <img
+                class="menu-image"
+                src="images/starters/spring-rolls.jpg"
+                alt="Golden crispy vegetable spring rolls with a dipping sauce"
+                width="800"
+                height="533"
+                loading="lazy"
+              >
+              <div class="menu-card-content">
+                <span class="menu-category">Starters</span>
+                <h4>Spring Rolls</h4>
+                <p>Crispy vegetable spring rolls</p>
+                <p class="menu-price">₹180</p>
+              </div>
+              <button class="button button-outline" type="button" aria-label="Add Spring Rolls to cart">Add to Cart</button>
+            </article>
+            <article class="menu-card">
+              <img
+                class="menu-image"
+                src="images/starters/garlic-bread.jpg"
+                alt="Toasted slices of baguette topped with garlic butter and herbs"
+                width="800"
+                height="533"
+                loading="lazy"
+              >
+              <div class="menu-card-content">
+                <span class="menu-category">Starters</span>
+                <h4>Garlic Bread</h4>
+                <p>Toasted baguette with garlic butter</p>
+                <p class="menu-price">₹140</p>
+              </div>
+              <button class="button button-outline" type="button" aria-label="Add Garlic Bread to cart">Add to Cart</button>
+            </article>
+          </div>
+        </section>
+
+        <section class="menu-category-group" aria-labelledby="main-course-heading">
+          <h3 class="menu-section-title" id="main-course-heading">Main Course</h3>
+          <div class="menu-grid">
+            <article class="menu-card" id="main-course">
+              <img
+                class="menu-image"
+                src="images/main-course/grilled-chicken.jpg"
+                alt="Grilled chicken breast served with colorful vegetables"
+                width="800"
+                height="533"
+                loading="lazy"
+              >
+              <div class="menu-card-content">
+                <span class="menu-category">Main Course</span>
+                <h4>Grilled Chicken</h4>
+                <p>Grilled chicken breast with veggies</p>
+                <p class="menu-price">₹420</p>
+              </div>
+              <button class="button button-outline" type="button" aria-label="Add Grilled Chicken to cart">Add to Cart</button>
+            </article>
+            <article class="menu-card">
+              <img
+                class="menu-image"
+                src="images/main-course/pasta-alfredo.jpg"
+                alt="Creamy Alfredo pasta sprinkled with parmesan"
+                width="800"
+                height="533"
+                loading="lazy"
+              >
+              <div class="menu-card-content">
+                <span class="menu-category">Main Course</span>
+                <h4>Pasta Alfredo</h4>
+                <p>Creamy Alfredo pasta with parmesan</p>
+                <p class="menu-price">₹380</p>
+              </div>
+              <button class="button button-outline" type="button" aria-label="Add Pasta Alfredo to cart">Add to Cart</button>
+            </article>
+            <article class="menu-card">
+              <img
+                class="menu-image"
+                src="images/main-course/veggie-burger.jpg"
+                alt="Veggie burger layered with lettuce and cheese"
+                width="800"
+                height="533"
+                loading="lazy"
+              >
+              <div class="menu-card-content">
+                <span class="menu-category">Main Course</span>
+                <h4>Veggie Burger</h4>
+                <p>Veggie burger with lettuce and cheese</p>
+                <p class="menu-price">₹320</p>
+              </div>
+              <button class="button button-outline" type="button" aria-label="Add Veggie Burger to cart">Add to Cart</button>
+            </article>
+          </div>
+        </section>
+
+        <section class="menu-category-group" aria-labelledby="desserts-heading">
+          <h3 class="menu-section-title" id="desserts-heading">Desserts</h3>
+          <div class="menu-grid">
+            <article class="menu-card" id="desserts">
+              <img
+                class="menu-image"
+                src="images/desserts/chocolate-cake.jpg"
+                alt="Rich layered chocolate cake with glossy chocolate icing"
+                width="800"
+                height="533"
+                loading="lazy"
+              >
+              <div class="menu-card-content">
+                <span class="menu-category">Desserts</span>
+                <h4>Chocolate Cake</h4>
+                <p>Rich chocolate layered cake</p>
+                <p class="menu-price">₹220</p>
+              </div>
+              <button class="button button-outline" type="button" aria-label="Add Chocolate Cake to cart">Add to Cart</button>
+            </article>
+            <article class="menu-card">
+              <img
+                class="menu-image"
+                src="images/desserts/ice-cream-sundae.jpg"
+                alt="Vanilla ice cream sundae topped with chocolate sauce"
+                width="800"
+                height="533"
+                loading="lazy"
+              >
+              <div class="menu-card-content">
+                <span class="menu-category">Desserts</span>
+                <h4>Ice Cream Sundae</h4>
+                <p>Vanilla ice cream with chocolate sauce</p>
+                <p class="menu-price">₹180</p>
+              </div>
+              <button class="button button-outline" type="button" aria-label="Add Ice Cream Sundae to cart">Add to Cart</button>
+            </article>
+          </div>
+        </section>
+
+        <section class="menu-category-group" aria-labelledby="drinks-heading">
+          <h3 class="menu-section-title" id="drinks-heading">Drinks</h3>
+          <div class="menu-grid">
+            <article class="menu-card" id="drinks">
+              <img
+                class="menu-image"
+                src="images/drinks/orange-juice.jpg"
+                alt="Glass of freshly squeezed orange juice with an orange slice"
+                width="800"
+                height="533"
+                loading="lazy"
+              >
+              <div class="menu-card-content">
+                <span class="menu-category">Drinks</span>
+                <h4>Orange Juice</h4>
+                <p>Freshly squeezed orange juice</p>
+                <p class="menu-price">₹120</p>
+              </div>
+              <button class="button button-outline" type="button" aria-label="Add Orange Juice to cart">Add to Cart</button>
+            </article>
+            <article class="menu-card">
+              <img
+                class="menu-image"
+                src="images/drinks/coffee.jpg"
+                alt="Hot brewed coffee in a ceramic cup"
+                width="800"
+                height="533"
+                loading="lazy"
+              >
+              <div class="menu-card-content">
+                <span class="menu-category">Drinks</span>
+                <h4>Coffee</h4>
+                <p>Hot brewed coffee</p>
+                <p class="menu-price">₹100</p>
+              </div>
+              <button class="button button-outline" type="button" aria-label="Add Coffee to cart">Add to Cart</button>
+            </article>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section offer-section" id="offers" aria-labelledby="offer-title">
+      <div class="container offer-layout">
+        <div class="offer-content">
+          <p class="eyebrow">A little something special</p>
+          <h2 id="offer-title">Special Offer</h2>
+          <p class="offer-promotion">20% OFF on Your First Order</p>
+          <p class="offer-description">
+            Enjoy your favorite meals from Namana Heritage Cafe and get 20% off your first order.
+          </p>
+          <a class="button button-light offer-button" href="#menu">Order Now</a>
+        </div>
+        <figure class="offer-image">
+          <img
+            src="images/main-course/grilled-chicken.jpg"
+            alt="A freshly prepared Namana Heritage Cafe meal served with colorful vegetables"
+            width="800"
+            height="533"
+            loading="lazy"
+          >
+          <figcaption>Freshly prepared favorites, made with care.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="why-us" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">The Namana Heritage Cafe difference</p>
+          <h2 id="why-title">Why Choose Namana Heritage Cafe?</h2>
+          <p>We make every order special with fresh ingredients, great taste, and reliable service.</p>
+        </div>
+        <div class="feature-layout">
+          <article class="feature-card">
+            <svg class="feature-icon" viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M24 40s-15-9-15-21a8 8 0 0 1 15-4 8 8 0 0 1 15 4c0 12-15 21-15 21Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+              <path d="M16 24h5l3-6 4 12 3-6h3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+            </svg>
+            <h3>Fresh &amp; Quality Food</h3>
+            <p>We prepare every dish using carefully selected ingredients.</p>
+          </article>
+          <article class="feature-card">
+            <svg class="feature-icon" viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M7 26h23V12H7v14ZM30 18h7l5 7v9H30V18Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+              <circle cx="15" cy="35" r="4" fill="none" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="35" cy="35" r="4" fill="none" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M13 18h11M13 22h7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"/>
+            </svg>
+            <h3>Fast Delivery</h3>
+            <p>Get your favorite meals delivered quickly and safely.</p>
+          </article>
+          <article class="feature-card">
+            <svg class="feature-icon" viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M10 10h28v28H10z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2.5"/>
+              <path d="M16 18h16M16 24h16M16 30h9" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.5"/>
+              <circle cx="34" cy="33" r="7" fill="#fff" stroke="currentColor" stroke-width="2.5"/>
+              <path d="m32 33 1.5 1.5L36 31" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            </svg>
+            <h3>Easy Ordering</h3>
+            <p>Browse our menu and choose your favorite dishes with ease.</p>
+          </article>
+          <article class="feature-card">
+            <svg class="feature-icon" viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M24 7 29 18l12 1-9 8 3 12-11-6-11 6 3-12-9-8 12-1 5-11Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2.5"/>
+              <path d="m19 25 4 4 7-8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+            </svg>
+            <h3>Great Service</h3>
+            <p>Our team is committed to giving you a great dining experience.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about-layout">
+        <figure class="about-image">
+          <img
+            src="images/hero/heritage-cafe.jpg"
+            alt="Freshly prepared dishes served at Namana Heritage Cafe"
+            width="960"
+            height="720"
+            loading="lazy"
+          >
+          <figcaption>Thoughtfully prepared at Namana Heritage Cafe</figcaption>
+        </figure>
+        <div class="about-content">
+          <p class="eyebrow">A place to enjoy</p>
+          <h2 id="about-title">About Namana Heritage Cafe</h2>
+          <p>
+            At Namana Heritage Cafe, we believe great food brings people together. From crispy starters and flavorful main courses
+            to delicious desserts and refreshing drinks, every dish is prepared with care and quality ingredients.
+          </p>
+          <p>Our goal is to make ordering your favorite food simple, convenient, and enjoyable.</p>
+          <p>Rooted in the warmth of traditional Indian hospitality, we welcome every guest with generous care.</p>
+          <ul class="about-highlights" aria-label="Namana Heritage Cafe highlights">
+            <li>Fresh Ingredients</li>
+            <li>Quality Preparation</li>
+            <li>Delicious Flavors</li>
+            <li>Customer Satisfaction</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">We would love to hear from you</p>
+          <h2 id="contact-title">Get in Touch</h2>
+          <p>Have a question or want to know more about Namana Heritage Cafe? We'd love to hear from you.</p>
+          <p class="demo-notice">The contact details below are demonstration details for this frontend project.</p>
+        </div>
+        <div class="contact-layout">
+          <div class="contact-information" role="group" aria-label="Demonstration contact information">
+            <article class="contact-card">
+              <span class="contact-label">Location</span>
+              <address>Namana Heritage Cafe, Main Street</address>
+            </article>
+            <article class="contact-card">
+              <span class="contact-label">Phone</span>
+              <a href="tel:+1234567890">+1 234 567 890</a>
+            </article>
+            <article class="contact-card">
+              <span class="contact-label">Email</span>
+              <a href="mailto:contact@namanaheritagecafe.com">contact@namanaheritagecafe.com</a>
+            </article>
+            <article class="contact-card">
+              <span class="contact-label">Opening Hours</span>
+              <p>Mon - Sun: 10:00 AM - 11:00 PM</p>
+            </article>
+          </div>
+
+          <form class="contact-form" aria-label="Contact Namana Heritage Cafe demonstration form" aria-describedby="form-note">
+            <div class="form-field">
+              <label for="contact-name">Full Name</label>
+              <input id="contact-name" name="name" type="text" autocomplete="name" placeholder="Your full name" required>
+            </div>
+            <div class="form-field">
+              <label for="contact-email">Email Address</label>
+              <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+            </div>
+            <div class="form-field form-field-full">
+              <label for="contact-subject">Subject</label>
+              <input id="contact-subject" name="subject" type="text" placeholder="How can we help?" required>
+            </div>
+            <div class="form-field form-field-full">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <p class="form-note" id="form-note">This demonstration form does not send messages.</p>
+            <button class="button form-submit" type="button">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="footer">
+    <div class="container">
+      <div class="footer-columns">
+        <div class="footer-column footer-about">
+          <a class="brand brand-footer" href="#home" aria-label="Namana Heritage Cafe home">Namana <span>Heritage Cafe</span></a>
+          <p>Fresh food, great taste, and a better way to enjoy your favorite meals at Namana Heritage Cafe.</p>
+        </div>
+        <nav class="footer-column" aria-label="Footer navigation">
+          <h2 class="footer-heading">Quick Links</h2>
+          <ul class="footer-link-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-column">
+          <h2 class="footer-heading">Contact Information</h2>
+          <ul class="footer-link-list">
+            <li><a href="tel:+1234567890">+1 234 567 890</a></li>
+            <li><a href="mailto:contact@namanaheritagecafe.com">contact@namanaheritagecafe.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h2 class="footer-heading">Social Media</h2>
+          <ul class="footer-link-list">
+            <li><a href="#" aria-label="Instagram (demonstration link)">Instagram</a></li>
+            <li><a href="#" aria-label="Facebook (demonstration link)">Facebook</a></li>
+            <li><a href="#" aria-label="Twitter (demonstration link)">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Namana Heritage Cafe. All Rights Reserved.</p>
+        <a href="#header">Back to top</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
